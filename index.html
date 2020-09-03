@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Canvas </title>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyDe7yYISSSojhogfoMoIWaL-LgHUXVId2s",
+    authDomain: "mspaint-e704b.firebaseapp.com",
+    databaseURL: "https://mspaint-e704b.firebaseio.com",
+    projectId: "mspaint-e704b",
+    storageBucket: "mspaint-e704b.appspot.com",
+    messagingSenderId: "47403030023",
+    appId: "1:47403030023:web:23f14a0237a66582ac7ca2",
+    measurementId: "G-3JQM9Q4SC7"
+  };
+
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="sketch.js"></script>
+  <div id="canvascontainer"></div>
+  
+  </body>
+</html>
